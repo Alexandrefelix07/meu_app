@@ -36,7 +36,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Felix List Registro"),
+        title: Text("Felix List Registros"),
       ),
       body: ListView.builder(
         itemCount: widget.itens.length,
